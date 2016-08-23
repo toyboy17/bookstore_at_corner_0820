@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41FB2341D53C4540039FD07 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FB2331D53C4540039FD07 /* ListTableViewCell.swift */; };
+		C46492491D5A747500D0540C /* CellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46492481D5A747500D0540C /* CellDetailViewController.swift */; };
+		C4A430261D537706006B2D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A430251D537706006B2D3D /* AppDelegate.swift */; };
+		C4A4302B1D537706006B2D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A430291D537706006B2D3D /* Main.storyboard */; };
+		C4A4302D1D537706006B2D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A4302C1D537706006B2D3D /* Assets.xcassets */; };
+		C4A430301D537706006B2D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A4302E1D537706006B2D3D /* LaunchScreen.storyboard */; };
+		C4A4303A1D5378AB006B2D3D /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A430391D5378AB006B2D3D /* ListTableViewController.swift */; };
+		C4B1630A1D6AFACC00CD959E /* AdvancedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B163091D6AFACC00CD959E /* AdvancedImageView.m */; };
+		C4B1630C1D6AFF6400CD959E /* alisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4B1630B1D6AFF6400CD959E /* alisa.jpg */; };
+		C4CDC71F1D65EC3300A9CA53 /* BookstoreDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDC71E1D65EC3300A9CA53 /* BookstoreDetailTableViewCell.swift */; };
+		C4F554C71D661BAC000202BF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F554C61D661BAC000202BF /* MapKit.framework */; };
+		C4F554C91D662548000202BF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F554C81D662548000202BF /* MapViewController.swift */; };
+		C4FC72CD1D6377CC0000121F /* BookstoresInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC72CC1D6377CC0000121F /* BookstoresInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C41FB2331D53C4540039FD07 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		C46492481D5A747500D0540C /* CellDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDetailViewController.swift; sourceTree = "<group>"; };
+		C4A430221D537706006B2D3D /* BookstorePin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookstorePin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A430251D537706006B2D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4A4302A1D537706006B2D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4A4302C1D537706006B2D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4A4302F1D537706006B2D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4A430311D537706006B2D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A430391D5378AB006B2D3D /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
+		C4B163011D6AF67400CD959E /* BookstorePin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookstorePin-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4B163021D6AF67500CD959E /* AdvancedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedImageView.h; sourceTree = "<group>"; };
+		C4B163091D6AFACC00CD959E /* AdvancedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedImageView.m; sourceTree = "<group>"; };
+		C4B1630B1D6AFF6400CD959E /* alisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alisa.jpg; sourceTree = "<group>"; };
+		C4CDC71E1D65EC3300A9CA53 /* BookstoreDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookstoreDetailTableViewCell.swift; sourceTree = "<group>"; };
+		C4F554C61D661BAC000202BF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C4F554C81D662548000202BF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C4FC72CC1D6377CC0000121F /* BookstoresInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookstoresInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4A4301F1D537706006B2D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F554C71D661BAC000202BF /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4A430191D537706006B2D3D = {
+			isa = PBXGroup;
+			children = (
+				C4F554C61D661BAC000202BF /* MapKit.framework */,
+				C4A430241D537706006B2D3D /* BookstorePin */,
+				C4A430231D537706006B2D3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4A430231D537706006B2D3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4A430221D537706006B2D3D /* BookstorePin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4A430241D537706006B2D3D /* BookstorePin */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1630B1D6AFF6400CD959E /* alisa.jpg */,
+				C4A430251D537706006B2D3D /* AppDelegate.swift */,
+				C4A430291D537706006B2D3D /* Main.storyboard */,
+				C4A4302C1D537706006B2D3D /* Assets.xcassets */,
+				C4A4302E1D537706006B2D3D /* LaunchScreen.storyboard */,
+				C4A430311D537706006B2D3D /* Info.plist */,
+				C4A430391D5378AB006B2D3D /* ListTableViewController.swift */,
+				C41FB2331D53C4540039FD07 /* ListTableViewCell.swift */,
+				C46492481D5A747500D0540C /* CellDetailViewController.swift */,
+				C4CDC71E1D65EC3300A9CA53 /* BookstoreDetailTableViewCell.swift */,
+				C4FC72CC1D6377CC0000121F /* BookstoresInfo.swift */,
+				C4F554C81D662548000202BF /* MapViewController.swift */,
+				C4B163011D6AF67400CD959E /* BookstorePin-Bridging-Header.h */,
+				C4B163021D6AF67500CD959E /* AdvancedImageView.h */,
+				C4B163091D6AFACC00CD959E /* AdvancedImageView.m */,
+			);
+			path = BookstorePin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4A430211D537706006B2D3D /* BookstorePin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A430341D537706006B2D3D /* Build configuration list for PBXNativeTarget "BookstorePin" */;
+			buildPhases = (
+				C4A4301E1D537706006B2D3D /* Sources */,
+				C4A4301F1D537706006B2D3D /* Frameworks */,
+				C4A430201D537706006B2D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookstorePin;
+			productName = BookstorePin;
+			productReference = C4A430221D537706006B2D3D /* BookstorePin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4A4301A1D537706006B2D3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "@ demand;";
+				TargetAttributes = {
+					C4A430211D537706006B2D3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C4A4301D1D537706006B2D3D /* Build configuration list for PBXProject "BookstorePin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4A430191D537706006B2D3D;
+			productRefGroup = C4A430231D537706006B2D3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4A430211D537706006B2D3D /* BookstorePin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4A430201D537706006B2D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A430301D537706006B2D3D /* LaunchScreen.storyboard in Resources */,
+				C4A4302D1D537706006B2D3D /* Assets.xcassets in Resources */,
+				C4B1630C1D6AFF6400CD959E /* alisa.jpg in Resources */,
+				C4A4302B1D537706006B2D3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4A4301E1D537706006B2D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A430261D537706006B2D3D /* AppDelegate.swift in Sources */,
+				C4A4303A1D5378AB006B2D3D /* ListTableViewController.swift in Sources */,
+				C4B1630A1D6AFACC00CD959E /* AdvancedImageView.m in Sources */,
+				C41FB2341D53C4540039FD07 /* ListTableViewCell.swift in Sources */,
+				C4FC72CD1D6377CC0000121F /* BookstoresInfo.swift in Sources */,
+				C46492491D5A747500D0540C /* CellDetailViewController.swift in Sources */,
+				C4CDC71F1D65EC3300A9CA53 /* BookstoreDetailTableViewCell.swift in Sources */,
+				C4F554C91D662548000202BF /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4A430291D537706006B2D3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A4302A1D537706006B2D3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4A4302E1D537706006B2D3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A4302F1D537706006B2D3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4A430321D537706006B2D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4A430331D537706006B2D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4A430351D537706006B2D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BookstorePin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pixnet.toyboy17.BookstorePin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookstorePin/BookstorePin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4A430361D537706006B2D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BookstorePin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pixnet.toyboy17.BookstorePin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookstorePin/BookstorePin-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4A4301D1D537706006B2D3D /* Build configuration list for PBXProject "BookstorePin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A430321D537706006B2D3D /* Debug */,
+				C4A430331D537706006B2D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A430341D537706006B2D3D /* Build configuration list for PBXNativeTarget "BookstorePin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A430351D537706006B2D3D /* Debug */,
+				C4A430361D537706006B2D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4A4301A1D537706006B2D3D /* Project object */;
+}
